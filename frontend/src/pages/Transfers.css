@@ -1,0 +1,74 @@
+/* Transfers.css */
+
+.transfers-container {
+  max-width: 600px;
+  margin: 2.5rem auto;
+  padding: 1.5rem 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2d2d2d;
+}
+
+.transfers-container h2 {
+  margin-bottom: 1.25rem;
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: #1e2a38;
+  text-align: center;
+}
+
+.transfers-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+}
+
+.transfers-container input {
+  padding: 10px 14px;
+  font-size: 1rem;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  transition: border-color 0.3s ease;
+}
+
+.transfers-container input:focus {
+  outline: none;
+  border-color: #005bbb;
+  box-shadow: 0 0 8px rgba(0,91,187,0.35);
+}
+
+.transfers-container button {
+  padding: 12px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  background-color: #005bbb;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.transfers-container button:hover {
+  background-color: #004494;
+}
+
+.transfers-container ul {
+  list-style-type: none;
+  padding-left: 0;
+  border-top: 1px solid #eee;
+}
+
+.transfers-container ul li {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #eee;
+  font-size: 1rem;
+  color: #444;
+}
+
+.transfers-container ul li:last-child {
+  border-bottom: none;
+}

@@ -1,0 +1,124 @@
+.p-4 {
+  padding: 1.5rem 2rem;
+  max-width: 720px;
+  margin: 3rem auto;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2f2f2f;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #1a1a1a;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 2rem;
+}
+
+input, select {
+  padding: 12px 14px;
+  font-size: 1rem;
+  border: 1.8px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  font-family: inherit;
+  color: #333;
+}
+
+input::placeholder, select option:first-child {
+  color: #999;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: #0056b3;
+  box-shadow: 0 0 8px rgba(0, 86, 179, 0.35);
+}
+
+button {
+  padding: 12px 18px;
+  background-color: #0056b3;
+  color: white;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  letter-spacing: 0.03em;
+  transition: background-color 0.25s ease, transform 0.15s ease;
+}
+
+button:hover {
+  background-color: #003f7f;
+  transform: scale(1.05);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 2rem;
+}
+
+.space-x-2 > * + * {
+  margin-left: 1rem;
+}
+
+/* Filters section */
+.mb-4.space-x-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1.5px solid #e0e0e0;
+  padding-bottom: 0.8rem;
+}
+
+input[type="date"] {
+  max-width: 180px;
+}
+
+/* Purchase list */
+ul {
+  list-style: none;
+  padding-left: 0;
+  max-height: 440px;
+  overflow-y: auto;
+  border-top: 1.8px solid #ddd;
+  border-radius: 0 0 10px 10px;
+}
+
+ul li {
+  padding: 1rem 1.25rem;
+  border-bottom: 1px solid #eee;
+  font-size: 1.05rem;
+  line-height: 1.5;
+  color: #2a2a2a;
+  user-select: none;
+  transition: background-color 0.2s ease;
+}
+
+ul li:hover {
+  background-color: #f5faff;
+  cursor: default;
+}
+
+ul li:nth-child(odd) {
+  background-color: #fafafa;
+}

@@ -1,0 +1,11 @@
+const mongoose = require('mongoose');
+
+const assignmentSchema = new mongoose.Schema({
+  asset: { type: mongoose.Schema.Types.ObjectId, ref: 'Asset', required: true },
+  personnelName: { type: String, required: true },
+  quantity: { type: Number, required: true },
+  date: { type: Date, default: Date.now },
+  base: { type: mongoose.Schema.Types.ObjectId, ref: 'Base', required: true }
+});
+
+module.exports = mongoose.model('Assignment', assignmentSchema);

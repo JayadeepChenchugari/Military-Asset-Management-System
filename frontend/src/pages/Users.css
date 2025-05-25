@@ -1,0 +1,49 @@
+.users-container {
+  max-width: 900px;
+  margin: 2.5rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #2d2d2d;
+}
+
+.users-container h1 {
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  color: #1e2a38;
+}
+
+.users-table-container {
+  overflow-x: auto;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.users-table th,
+.users-table td {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.users-table th {
+  background-color: #f4f6f8;
+  font-weight: 600;
+  color: #34495e;
+}
+
+.users-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.users-table td {
+  color: #555;
+}
