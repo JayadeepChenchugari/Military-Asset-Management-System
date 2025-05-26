@@ -13,6 +13,7 @@ const logSchema = new mongoose.Schema({
       'Transfer',
       'Assignment',
       'User Registration',
+      'Expenditure',
     ],
     required: true
   },
